@@ -1,0 +1,21 @@
+@import '../variables';
+
+select {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 15px 14px 15px 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: black;
+
+    option{
+        background-color: #EFEFEF;
+        font-family: "Montserrat", sans-serif;
+        padding: 15px 14px 15px 14px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        color: black;
+    }
+
+    
+}

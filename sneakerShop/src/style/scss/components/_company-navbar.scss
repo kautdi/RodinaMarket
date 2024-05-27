@@ -1,0 +1,78 @@
+.company-navbar{
+    position: absolute;
+    .navbar-items{
+        display: flex;
+        align-items: center;
+
+        .navbar-link{
+            text-align: center;
+            &__active{
+                border-bottom:1px solid black ;
+                
+                .item{
+                    
+                }
+            }
+            .link{
+
+                .item{
+                    
+
+                    width: 250px;
+                    // &__zakaz{
+                    //     justify-content: space-between;
+                    //     background-color: #000000;
+                    //         h3{
+                    //             color: #fff;
+                    //             font-family: "Montserrat", sans-serif;
+                    //             font-size: 16px;
+                    //             margin-bottom: 14px;
+                    //         }
+                    //         p{
+                    //             color: #fff;
+                    //             font-family: "Montserrat", sans-serif;
+                    //             font-size: 12px;
+
+                    //             &.kolvo{
+                    //                 font-size: 20px;
+                    //             }
+                    //         }
+                            
+                            
+                    
+                    // }
+                    .link-icon{
+
+                    }
+                    .link-name{
+                        color: #000000;
+                        font-weight: 600;
+                        font-family: "Montserrat", sans-serif;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+    &__navbar-signout{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border: 1px solid #000000;
+        padding: 18px;
+        margin-top: 20px;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+        .link-name{
+            color: #000000;
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

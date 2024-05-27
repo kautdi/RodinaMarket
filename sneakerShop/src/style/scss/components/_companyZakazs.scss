@@ -1,0 +1,112 @@
+.zakaz-item {
+    width: 1600px;
+    background-color: #ffffff;
+    border-radius: 19px;
+    padding: 19px 20px;
+    margin-bottom: 30px;
+    
+}
+.zakaz-item-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px  solid #CDCDCD;
+    padding-bottom: 15px;
+}
+.item-num {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    h3{
+        color: #000000;
+        font-size: 24px;
+
+        display: flex;
+        gap: 30px;
+    }
+}
+.zakaz-item-footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    h3{
+        color: #000000;
+        font-size: 24px;
+        display: flex;
+        gap: 30px;
+    }
+}
+.item-btns {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.btn-success {
+    background-color: #6fcf9700;
+
+    &:hover{
+        border-color: #000000;
+        border-radius: 0px;
+    }
+}
+.btn-delete {
+    background-color: #eb575700;
+    &:hover{
+        border-color: #000000;
+        border-radius: 0px;
+    }
+}
+.btn-proccess {
+    background-color: #ffffff00;
+    &:hover{
+        border-color: #000000;
+    }
+}
+.zakaz-items {
+    display: flex;
+    flex-direction: column;
+    
+}
+.sneaker-zakaz {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 850px;
+    border-bottom:1px  solid #CDCDCD;
+    padding-bottom: 15px;
+
+}
+
+.number {
+    
+    span{
+        color: #000000;
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+.pic-sneaker {
+    width: 210px;
+
+    img{
+        width: 210px;
+        height: 1px;
+    }
+}
+.sneker-color {
+}
+.sneker-color-value {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.sneker-size {
+    
+}
+.sneker-size-value {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}

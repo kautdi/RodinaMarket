@@ -1,0 +1,22 @@
+.root {
+    position: relative;
+    left: px;
+  }
+  
+  .selectedBrand {
+    border: 1px solid rgba(0, 0, 0, 0.973);
+    padding: 12px 20px;
+    width: 200px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 0px;
+  
+    &:focus {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+  }
+  .brand-item{
+
+  }
+  
+  

@@ -1,0 +1,63 @@
+input{
+    width: 100%;
+    background-color: #ffffff;
+
+    padding:23px 10px 23px 14px;
+    border: 0px solid #F3F3F3;
+
+    color: #222222;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    height: 54px;
+
+    &::placeholder{
+        font-size: 16px;
+    }
+}
+label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+}
+.delivery-info__adress-info{
+    gap: 50px;
+    .inputBlock{
+        display: flex;
+        align-items: center;
+       
+    }
+    .inputBlock:first-child{
+        margin-left: 0px;
+    }
+   
+}
+.inputBlock{
+    
+    &__edit{
+        display: flex;
+        input{
+           
+        }
+       
+    }
+    p{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+}
+textarea{
+    width: 100%;
+    height: 136px;
+    background-color: #F3F3F3;
+    border-radius: 14px;
+    padding:23px 10px 23px 14px;
+    border: 0px solid #F3F3F3;
+    font-family: "Montserrat", sans-serif;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+    resize: none;
+}

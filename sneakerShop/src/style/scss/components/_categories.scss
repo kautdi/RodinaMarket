@@ -1,0 +1,33 @@
+@import '../variables';
+
+.categories {
+  ul {
+    display: flex;
+
+    li {
+      background-color: #fcfcfc;
+      padding: 13px 30px;
+      margin-right: 10px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.1s ease-in-out;
+      @include noselect();
+
+      &:hover {
+        background-color: darken(#f9f9f9, 2%);
+      }
+
+      &:active {
+        background-color: darken(#f9f9f9, 5%);
+        background-color: #ffffff;
+        color: #fff;
+      }
+
+      &.active {
+        background-color: #ffffff;
+        color: #000000;
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}
